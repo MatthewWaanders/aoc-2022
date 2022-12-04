@@ -3,12 +3,11 @@ package day3
 import utils.readInput
 
 fun main() {
-    // test if implementation meets criteria from the description, like:
-    val testInput = readInput("day3", "Day03_test")
+    val testInput = readInput("Day03_test", "day3")
     println(part1(testInput))
     check(part1(testInput) == 157)
 
-    val input = readInput("day3", "Day03")
+    val input = readInput("Day03", "day3")
     println(part1(input))
     println(part2(input))
 }
